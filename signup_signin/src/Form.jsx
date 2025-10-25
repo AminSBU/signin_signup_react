@@ -26,6 +26,19 @@ const Form = () => {
                         <div>
                             <button className="signinBtn">Login</button>
                         </div>
+
+                        <div>
+                            <h4>Login with Sites:</h4>
+                        </div>
+
+                        <div>
+                            <button aria-label="Home"><i class="fa fa-google"></i></button>
+                            <button aria-label="Home"><i class="fa fa-linkedin"></i></button>
+                            <button aria-label="Home"><i class="fa fa-twitter"></i></button>
+                            <button aria-label="Home"><i class="fa fa-facebook"></i></button>
+                        </div>
+
+
                     </ul>
                 </div>
             </div>
