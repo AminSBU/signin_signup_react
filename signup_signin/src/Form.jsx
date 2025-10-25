@@ -10,7 +10,15 @@ const Form = () => {
                 </div>
 
                 <div className="second">
-                    <h1>Hello</h1>                    
+                    <ul>
+                        <div>
+                            <input type="text" placeholder="Your name:"></input>
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Your name:"></input>
+                        </div>
+                    </ul>
                 </div>
             </div>
         </>
