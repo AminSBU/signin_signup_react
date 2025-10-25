@@ -1,7 +1,35 @@
-.Form-container
-{
-    border: 1px solid rgb(0, 100, 200);
-    height: 500px;
-    width: 900px;
-    border-radius: 20px;
+.Form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+  min-height: 40vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Left panel styling (the "first" div) */
+.Form-container .first {
+  background: #f0f4f8;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.Form-container .second {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.img{
+    width: 100%;
+    height: 100%;
 }
