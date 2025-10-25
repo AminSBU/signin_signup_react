@@ -16,7 +16,15 @@ const Form = () => {
                         </div>
 
                         <div>
-                            <input type="text" placeholder="Your name:"></input>
+                            <input type="text" placeholder="Your email:"></input>
+                        </div>
+
+                        <div>
+                            <input type="password" placeholder="Password:"></input>
+                        </div>
+
+                        <div>
+                            <button className="signinBtn">Login</button>
                         </div>
                     </ul>
                 </div>
